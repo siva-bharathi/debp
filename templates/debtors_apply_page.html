@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Iconstatic\css\style.css -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='fonts/material-icon/css/material-design-iconic-font.min.css.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='vendor/nouislider/nouislider.min.css') }}">
+    <!-- <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css"> -->
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apply now</h1>
+<h2>&nbsp;&nbsp;&nbsp;We will reach you very soon.</h2>
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="{{url_for('static', filename='img/form-img.jpg')}}"  >
+                    <div class="signup-img-content">
+                        <h2><span style="color:red;font-weight:bold">Register now </span> </h2>
+                        <p><span style="color:blue;font-weight:bold">while seats are available !</span> !</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label>Full Name <input type="text" name="Full_name" required/></label>
+                                </div>
+                                <div class="form-input">
+                                    <label>Phone Number<input type="number" name="Phone_number" required/></label>
+                                </div>
+                                <div class="form-input">
+                                    <label>Aadhar Card Number<input type="number" name="Aadhar_num" required/></label>
+                                </div>
+                                <div class="form-input">
+                                    <label>Salary<input type="text" name="Salary" required/></label>
+                                </div>
+                                <div class="form-input">
+                                    <label>Amount you need for a month as a debt<input type="text" name="Ammount_needed" required/></label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                
+                                <div class="form-input">
+                                    <label>Enter Email <input type="email" name="email" required/></label>
+                                </div>
+                                <div class="form-input">
+                                    <label>Self Employed / Employed <input type="text" name="Self_emp" required/></label>
+                                </div>
+                                <div class="form-input">
+                                    <label>Single / Married<input type="text" name="Single_Marr" required/></label>
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                       
+                        
+                        
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
+                           
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{{url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='vendor/nouislider/nouislider.min.js')}}"></script>
+    <script src="{{url_for('static', filename='vendor/wnumb/wNumb.js')}}"></script>
+    <script src="{{url_for('static', filename='vendor/jquery-validation/dist/jquery.validate.min.js')}}"></script>
+    <script src="{{url_for('static', filename='vendor/jquery-validation/dist/additional-methods.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/wnumb/wNumb.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script> -->
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
