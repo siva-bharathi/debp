@@ -1,4 +1,5 @@
-# HTML-CSS-Mini-Project-portfolio
+# Pytohn-Flask-MiniProject
 
 
-This is a mini project and specially for the beginners. We will show you how you can turn the website into a  responsive design. We will see how to create responsive navigation bar with Mobile hamburger menu and how to make flip box box with css. There are many thing that you can learn through the practice.
+This is a mini project. All the data will be stored into firebase real time database. It is responsive website. 
+This website is make with python, flask, html, css, js.
